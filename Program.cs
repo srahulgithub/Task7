@@ -47,45 +47,4 @@ app.UseSpa(spa =>
 });
 app.Run();
 
-// Configure the HTTP request pipeline.
-//if (!app.Environment.IsDevelopment())
-//{
-  //  app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    //app.UseHsts();
-//}
-
-
-//var startup = new Startup(builder.Configuration);
-
-//startup.ConfigureServices(builder.Services);
-
-//var app = builder.Build();
-
-//startup.Configure(app, app.Environment);
-
-
-//app.Run();
-
-//namespace Assignment7
-//{
-  //  public class Program
-    //{
-      //  public static void Main(string[] args)
-        //{
-          //  CreateHostBuilder(args).Build().Run();
-            
-
-        //}
-
-        //public static IHostBuilder CreateHostBuilder(string[] args) =>
-          //  Host.CreateDefaultBuilder(args)
-            //    .ConfigureWebHostDefaults(webBuilder =>
-              //  {
-                //    webBuilder.UseStartup<Startup>();
-                //});
-        
-  //  }
-
-//}
 
